@@ -213,7 +213,7 @@ module.exports={
 /* Hjson https://hjson.github.io */
 "use strict";
 
-var os=require('os'); // will be {} when used in a browser
+var os={}; // will be {} when used in a browser
 
 function tryParseNumber(text, stopAtNext) {
 
